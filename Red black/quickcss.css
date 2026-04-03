@@ -1,0 +1,40 @@
+/*Imports */
+
+/* Make Member List background transparent */
+[class^="members_"] {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*Dm Side profile Darkness*/
+[class="none_d125d2 scrollerBase_d125d2"]{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*Profiles Transparent*/
+[class="profileEffects__01370"]{
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+/* Make the DM List transparent */
+[class^="privateChannels_"] {
+    background-color: rgba(0, 0, 0, 0.5) ;
+}
+
+/* Change the "ClearVision" */
+:is(.theme-dark,.theme-light):not(.platform-osx) .leading_c38106::before {
+    content: "LoLCraft2";
+}
+
+/*Remove the ClearVision version text*/
+:is(.theme-dark,.theme-light):not(.platform-osx) .leading_c38106::after {
+    content: "Dark/Red";
+}
+
+/* Top Bar */
+[class="title_c38106"] {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+/* Change Link Color */
+.markup__75297 a { color: #FF3131 !important; } 
+.markup__75297 a:hover { color: #b31c1c !important; }
