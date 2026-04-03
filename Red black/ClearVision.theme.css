@@ -27,7 +27,7 @@
   --offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
   /* APP BACKGROUND */
   --background-shading-percent: 100%; /* app background shading amount (0 for complete smoothness) [default: 100%] */
-  --background-image: url(https://images3.alphacoders.com/122/1226576.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/ 
+  --background-image: url(https://raw.githubusercontent.com/LoLCraft2L/Discord-Themes/refs/heads/main/Red%20black/Chisa.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/ 
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size (px) [default: cover] */
   --background-attachment: fixed; /* app background attachment [default: fixed] */
@@ -39,13 +39,13 @@
   --user-popout-attachment: var(--background-attachment); /* user popout background attachment [default: var(--background-attachment)] */
   --user-popout-filter: var(--background-filter); /* user popout background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
   /* USER MODAL BACKGROUND */
-  --user-modal-image: url(https://images7.alphacoders.com/107/1070378.png); /* user modal background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
+  --user-modal-image: url(https://raw.githubusercontent.com/LoLCraft2L/Discord-Themes/refs/heads/main/Red%20black/Rumia.jpg); /* user modal background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
   --user-modal-position: var(--background-position); /* user modal position [default: var(--background-position)] */
   --user-modal-size: var(--background-size); /* user modal size (px) [default: var(--background-size)] */
   --user-modal-attachment: var(--background-attachment); /* user modal background attachment [default: var(--background-attachment)] */
   --user-modal-filter: var(--background-filter); /* user modal background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
   /* HOME ICON */
-  --home-icon: url(https://assets.ppy.sh/artists/466/cover.jpg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
+  --home-icon: url(https://github.com/LoLCraft2L/Discord-Themes/blob/main/Red%20black/ak+q.jpg?raw=true); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
   --home-size: cover; /* home button icon size (px) [default:cover] */
   /* FONTS */
   --main-font: "gg sans", "Helvetica Neue", Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
