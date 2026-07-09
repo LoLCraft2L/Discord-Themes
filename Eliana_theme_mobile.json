@@ -517,8 +517,8 @@
     },
     "background": {
         "url": "https://raw.githubusercontent.com/LoLCraft2L/Discord-Themes/refs/heads/main/Eliana.jpg",
-	"alpha": 0.1
-	},
+	"alpha": 0.35
+	},l
     "plus": {
         "version": 0,
         "customOverlays": true,
