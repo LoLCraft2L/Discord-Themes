@@ -24,9 +24,9 @@
             "#102b47"
         ],
         "BACKGROUND_MENTIONED": [
-            "#ff0000",
-            "#ff0000",
-            "#ff0000"
+            "#bdae931a",
+            "#bdae931a",
+            "#bdae931a"
         ],
         "BACKGROUND_MENTIONED_HOVER": [
             "#bdae931a",
@@ -94,9 +94,9 @@
             "#d9ff00"
         ],
         "BACKGROUND_TERTIARY": [
-            "#04122e",
-            "#04122e",
-            "#04122e"
+            "#d9ff00",
+            "#d9ff00",
+            "#d9ff00"
         ],
 	"BG_BACKDROP": [
 	    "#102b48b3",
