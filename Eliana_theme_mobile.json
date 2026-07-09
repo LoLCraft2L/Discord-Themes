@@ -19,9 +19,9 @@
             "#fb4934"
         ],
         "BACKGROUND_FLOATING": [
-            "#102b47",
-            "#102b47",
-            "#102b47"
+            "#ffd500",
+            "#ffd500",
+            "#ffd500"
         ],
         "BACKGROUND_MENTIONED": [
             "#bdae931a",
@@ -39,9 +39,9 @@
             "#bdae931a"
         ],
         "BACKGROUND_MOBILE_PRIMARY": [
-            "#fcba03",
-            "#fcba03",
-            "#fcba03"
+            "#061428",
+            "#061428",
+            "#061428"
         ],
         "BACKGROUND_MOBILE_SECONDARY": [
             "#fcba03",
@@ -76,7 +76,7 @@
         "BACKGROUND_NESTED_FLOATING": [
             "#0a2848",
             "#dcddde",
-            "#000000"
+            "#ff0073"
         ],
         "BACKGROUND_PRIMARY": [
             "#0a1426",
