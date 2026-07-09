@@ -79,24 +79,24 @@
             "#000000"
         ],
         "BACKGROUND_PRIMARY": [
-            "#fffb08",
-            "#fffb08",
-            "#fffb08"
+            "#0a1426",
+            "#0a1426",
+            "#0a1426"
         ],
         "BACKGROUND_SECONDARY": [
-            "#d9ff00",
-            "#d9ff00",
-            "#d9ff00"
+            "#0a1426",
+            "#0a1426",
+            "#0a1426"
         ],
         "BACKGROUND_SECONDARY_ALT": [
-            "#d9ff00",
-            "#d9ff00",
-            "#d9ff00"
+            "#111423",
+            "#111423",
+            "#111423"
         ],
         "BACKGROUND_TERTIARY": [
-            "#d9ff00",
-            "#d9ff00",
-            "#d9ff00"
+            "#04122e",
+            "#04122e",
+            "#04122e"
         ],
 	"BG_BACKDROP": [
 	    "#102b48b3",
@@ -471,7 +471,7 @@
     },
     "rawColors": {
         "BG_GRADIENT_CRIMSON_MOON_2": "#000000",
-        "PRIMARY_100": "#3789E6",
+        "PRIMARY_100": "#ff0000",
         "PRIMARY_130": "#dbeafa",
         "PRIMARY_200": "#7eb3f0",
         "PRIMARY_230": "#7eb3f0",
