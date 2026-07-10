@@ -512,8 +512,8 @@
         "WHITE_500": "#dcddde",
         "YELLOW_300": "#2780E6",
 	"PLUM_20": "#050212",
-	"PLUM_16": "#FFFFFF",
-	"PLUM_22": "#0f1428"
+	"PLUM_16": "#ee05fa",
+	"PLUM_22": "#fae105"
     },
     "background": {
         "url": "https://raw.githubusercontent.com/LoLCraft2L/Discord-Themes/refs/heads/main/Eliana.jpg",
