@@ -7,7 +7,7 @@
          "id": "4271389337516769"
       }
     ],
-    "semanticColors": {
+     "semanticColors": {
 	"ANDROID_RIPPLE": [
 	    "#07448a",
 	    "#07448a",
@@ -25,7 +25,7 @@
         ],
         "BACKGROUND_MENTIONED": [
             "#bdae931a",
-            "#bdae931a",
+            "#665c541a",
             "#bdae931a"
         ],
         "BACKGROUND_MENTIONED_HOVER": [
@@ -41,17 +41,17 @@
         "BACKGROUND_MOBILE_PRIMARY": [
             "#061428",
             "#061428",
-            "#ffc219"
+            "#061428"
         ],
         "BACKGROUND_MOBILE_SECONDARY": [
-            "#fcba03",
-            "#fcba03",
-            "#ffc219"
+            "#061428",
+            "#061428",
+            "#061428"
         ],
         "BACKGROUND_ACCENT": [
             "#86b4ea",
             "#86b4ea",
-            "#ffc219"
+            "#86b4ea"
         ],
         "BACKGROUND_MODIFIER_ACCENT": [
             "#222959",
@@ -76,12 +76,12 @@
         "BACKGROUND_NESTED_FLOATING": [
             "#0a2848",
             "#dcddde",
-            "#102b47"
+            "#000000"
         ],
         "BACKGROUND_PRIMARY": [
-            "#0a1426",
-            "#0a1426",
-            "#0a1426"
+            "#061428",
+            "#061428",
+            "#061428"
         ],
         "BACKGROUND_SECONDARY": [
             "#0a1426",
@@ -91,7 +91,7 @@
         "BACKGROUND_SECONDARY_ALT": [
             "#111423",
             "#111423",
-            "#ffc219"
+            "#111423"
         ],
         "BACKGROUND_TERTIARY": [
             "#04122e",
@@ -104,9 +104,9 @@
 	    "#102b48b3"
 	],
 	"BG_BASE_PRIMARY": [
-	    "#ff0073",
-	    "#ff0073",
-	    "#ff0073"
+	    "#03081c",
+	    "#03081c",
+	    "#03081c"
 	],
 	"BG_SURFACE_OVERLAY_TMP": [
             "#03081c",
@@ -131,7 +131,7 @@
         "CHANNELS_DEFAULT": [
             "#575a68",
             "#575a68",
-            "#d7fa11"			
+            "#575a68"			
         ],
         "CHANNEL_ICON": [
             "#2780E64d",
@@ -146,7 +146,7 @@
 	"CHAT_SWIPE_TO_REPLY_BACKGROUND": [
 	    "#0f1428",
 	    "#0f1428",
-	    "#fcba03"
+	    "#0f1428"
 	],
         "CHANNEL_TEXT_AREA_PLACEHOLDER":  [
             "#81b6ef",
@@ -236,7 +236,7 @@
 	"EXPRESSION_PICKER_BG": [
 	    "#111423",
 	    "#111423",
-	    "#ffc219"
+	    "#111423"
 	],
         "FOCUS_PRIMARY": [
             "#0a2848",
@@ -361,7 +361,7 @@
 	"PANEL_BG": [
 	    "#111423",
             "#111423",
-            "#d7fa11"
+            "#111423"
 	],
 	"REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
 	    "#03081c",
@@ -471,7 +471,7 @@
     },
     "rawColors": {
         "BG_GRADIENT_CRIMSON_MOON_2": "#000000",
-        "PRIMARY_100": "#ff0000",
+        "PRIMARY_100": "#3789E6",
         "PRIMARY_130": "#dbeafa",
         "PRIMARY_200": "#7eb3f0",
         "PRIMARY_230": "#7eb3f0",
@@ -511,8 +511,8 @@
         "GREEN_360": "#689d6a",
         "WHITE_500": "#dcddde",
         "YELLOW_300": "#2780E6",
-	"PLUM_20": "#050212",
-	"PLUM_16": "#ee05fa",
+	"PLUM_20": "#111423",
+	"PLUM_16": "#111533",
 	"PLUM_22": "#0f1428"
     },
     "background": {
