@@ -1,22 +1,28 @@
 /*Imports */
 
 /* Make Member List background transparent */
-[class^="members_"] {
+[class ^= "members_"] {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-/*Dm Side profile Darkness*/
-[class="none_d125d2 scrollerBase_d125d2"]{
-    background-color: rgba(0, 0, 0, 0.3);
+/* Darker Server list */
+[class = "tree_ef3116"]{
+    background-color: rgba(0, 0, 0, 0.55);
 }
 
-/*Profiles Transparent*/
-[class="profileEffects__01370"]{
-    background-color: rgba(0, 0, 0, 0.25);
+/* Pop out profile */
+.inner_c0bea0 {
+  /* Semi-transparent dark overlay */
+  background-color: rgba(0, 0, 0, 0.6) !important; 
 }
 
-/* Make the DM List transparent */
-[class^="privateChannels_"] {
+/* DM Side Profile */
+[class = "aside_f58343"]{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Darker DM List */
+[class ^= "privateChannels_"] {
     background-color: rgba(0, 0, 0, 0.5) ;
 }
 
@@ -38,3 +44,109 @@
 /* Change Link Color */
 .markup__75297 a { color: #FF3131 !important; } 
 .markup__75297 a:hover { color: #b31c1c !important; }
+
+/* Highlight deleted text */
+.messagelogger-deleted{
+    background-color: rgba(255, 0, 0, 0.15) !important; /* Highlight color */ 
+    border-left: 5px solid #ff3333 !important;          /* Edge bar color */
+    padding-left: 5px !important;                      
+}
+
+/* Emoji section*/
+[class="contentWrapper__08434"]{
+    background-color: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(2px); 
+}
+
+/*Apps and Command bar*/
+[class="contentWrapper__9c62c"]{
+    background-color: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(2px); 
+} 
+
+/* sliding viggy / vennie / shiggy */
+  [class^=chatContent] > form[class^=form_] > div:first-child::before {
+    height: 200px;
+    position: absolute;
+    width: 228px;
+    bottom: calc(25% - 8px);
+    top: unset !important;
+    content: url(https://media.discordapp.net/stickers/1217112512374505613.png?size=320);
+    image-rendering: pixelated;
+    align-content: center;
+    scale: 0.34;
+    inset-inline: unset;
+    animation: 5s linear 0s infinite left_right;
+    left: 0;
+    pointer-events: none;
+  }
+
+  @keyframes left_right {
+    0%, 2.5%, 97.5%, 100% { left: 63.7% }
+    45%, 55% { left: 86.5% }
+    2.4%, 55% { transform: scaleX(1) }
+    2.5%, 54.9% { transform: scaleX(-1) }
+  }
+
+
+/* Channel hover animation for DM, Member and channel list (AI GEN) */ 
+:root {
+    --list-item-transition: 0.2s ease;
+}
+
+/* Target the child link while hovering over the stable parent wrapper */
+.wrapper__2ea32 .link__2ea32 {
+    transition: transform var(--list-item-transition);
+}
+.wrapper__2ea32:hover .link__2ea32 {
+    transform: translateX(10px) !important;
+}
+
+.unread__2ea32 {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin-left: -4px;
+    transition: var(--list-item-transition);
+}
+.wrapper__2ea32:hover .unread__2ea32 {
+    width: 12px;
+    height: 12px;
+    margin-top: -6px;
+    margin-left: 3px;
+    background-color: transparent;
+    background: url('https://discordapp.com');
+    background-size: 12px;
+    background-position: center;
+}
+
+/* extra structural transitions */
+.link__2ea32 /* channels */,
+.childContainer__91a9d /* members */,
+.link__972a0 /* dms */,
+.side_b3f026 .item_b3f026 /* settings */ {
+    transition: transform 0.2s ease !important;
+}
+
+/* Fixed Parent Wrappers for the structural groups to stop edge jitters */
+.wrapper__2ea32:hover .link__2ea32,
+.side_b3f026 .item_b3f026:hover {
+    transform: translateX(10px) !important;
+}
+
+/* Fixes for members and direct messages lists */
+[class*="member_"]:hover .childContainer__91a9d,
+[class*="channel_"]:hover .link__972a0 {
+    transform: translateX(18px) !important;
+}
+
+/*  MESSAGE HOVER (AI GEN) */
+/* Add a smooth transition to the message row */
+[class*="message_"] {
+    transition: transform 0.2s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Smoothly slide the entire message row toward the RIGHT side */
+[class*="message_"]:hover {
+    transform: translateX(8px) !important; /* Moves strictly right; no size scaling */
+}
